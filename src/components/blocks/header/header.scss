@@ -1,0 +1,6 @@
+@use '../../../styles/vars/colors.scss' as *;
+
+.header {
+  border: 1px solid $color--grey-200;
+  padding: 12px 24px;
+}

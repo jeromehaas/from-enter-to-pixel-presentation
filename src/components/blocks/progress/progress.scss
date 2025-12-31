@@ -1,0 +1,25 @@
+@use '../../../styles/vars/colors.scss' as *;
+
+.progress {
+  position: relative;
+  height: 8px;
+  width: 100%;
+
+  .progress__background {
+    position: absolute;
+    background: $color--grey-200;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .progress__status {
+    position: absolute;
+    background: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+}
