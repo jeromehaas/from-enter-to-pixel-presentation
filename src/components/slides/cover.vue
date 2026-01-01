@@ -20,13 +20,13 @@ defineProps({
         <div class="content__right">
           <div class="content__heading">
             <h1 class="content__heading-line">Vom Enter zum Pixel:</h1>
-            <h1 class="content__headint-line">der Web-Ladepfad in 6 Schritten</h1>
+            <h1 class="content__heading-line">der Web-Ladepfad in 6 Schritten</h1>
           </div>
           <div class="content__metadata">
             <p class="content__metadata-line">Klasse: HFIE 2024</p>
             <p class="content__metadata-line">Name der Betreuerin: Pascale Koller</p>
-            <p class="content__metadata-line">Name des Verfasssers: Jérôme Haas</p>
-            <p class="content__metadata-line">Datum der Präsemtatiom: 05.12.2025</p>
+            <p class="content__metadata-line">Name des Verfassers: Jérôme Haas</p>
+            <p class="content__metadata-line">Datum der Präsentation: 05.12.2025</p>
           </div>
         </div>
       </div>

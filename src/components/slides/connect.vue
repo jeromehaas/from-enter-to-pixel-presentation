@@ -20,10 +20,10 @@ defineProps({
         <div class="content__right">
           <div class="content__heading">
             <h2 class="content__heading-line">Website:</h2>
-            <h1 class="content__headint-line">www.ping-pang.ch</h1>
+            <h1 class="content__heading-line">www.ping-pang.ch</h1>
             <br/>
             <h2 class="content__heading-line">Repository:</h2>
-            <h1 class="content__headint-line">www.github.com/jeromehaas/from-enter-to-pixel-presentation</h1>
+            <h1 class="content__heading-line">www.github.com/jeromehaas/from-enter-to-pixel-presentation</h1>
           </div>
         </div>
       </div>
