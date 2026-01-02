@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onMounted, onUnmounted, ref } from 'vue';
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
 import Cover from './components/slides/cover.vue';
 import JoiningTheNetwork from './components/slides/joining-the-network.vue';
 import EnterUrlInBrowser from './components/slides/enter-url-in-browser.vue';
@@ -72,13 +72,23 @@ const removeEventListeners = () => {
   window.removeEventListener('keydown', onKeyboardDown);
 };
 
+const restoreSlideCounter = () => {
+    slideCounter.value = localStorage.getItem('slide-counter') || 0;
+};
+
 onMounted(() => {
   addEventListeners();
+  restoreSlideCounter()
 });
 
 onUnmounted(() => {
   removeEventListeners();
 });
+
+watch(slideCounter, (value) => {
+  localStorage.setItem('slide-counter', value);
+});
+
 </script>
 
 <template>
