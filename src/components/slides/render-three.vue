@@ -14,10 +14,10 @@ defineProps({
 <template>
   <Slide>
     <Progress :progress="progress"/>
-    <Header>Render Three</Header>
+    <Header>Render Tree</Header>
     <Content>
       <div class="content">
-        <img class="content__image" src="/graphics/render-three.svg" alt="Render Three"/>
+        <img class="content__image" src="/graphics/render-three.svg" alt="Render Tree"/>
       </div>
     </Content>
     <Navigation :slideCounter="slideCounter"/>
